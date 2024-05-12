@@ -1,0 +1,47 @@
+body {
+    background-color: #1a1a1a; /* Darker shade of black for background */
+    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto for better typography */
+    color: #eee; /* Text color */
+}
+
+.navbar {
+    background-color: #222 !important; /* Dark gray navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase font size for your name */
+    font-weight: bold; /* Make it bold */
+    color: #fff !important; /* White color for your name */
+}
+
+.container {
+    background-color: #111; /* Dark container background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.btn-primary {
+    background-color: #d9534f; /* Red primary button color */
+    border-color: #d9534f;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c; /* Darker red color on hover */
+    border-color: #c9302c;
+}
+
+/* Gradient for the main container */
+.container {
+    background: linear-gradient(135deg, #111 0%, #222 100%);
+}
+
+/* Text color and styles for headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
